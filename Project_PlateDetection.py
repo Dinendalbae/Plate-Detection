@@ -1,6 +1,6 @@
 import cv2
 ####################################
-nPlateCascade = cv2.CascadeClassifier("haarcascades/haarcascades/haarcascade_russian_plate_number.xml")
+nPlateCascade = cv2.CascadeClassifier("haarcascade_russian_plate_number.xml")
 frameWidth = 640
 frameHeight = 480
 minArea = 500
